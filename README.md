@@ -9,7 +9,6 @@ Ed-tech companies experience high traffic from students asking similar queries a
 ❌ Increases response time ⏳
 ❌ Burdens support teams 😵
 ❌ Affects user experience 👎
-
 ✅ Solution: AI-Powered RAG Chatbot
 EdTech-RAG-Bot efficiently retrieves relevant answers from a structured FAQ dataset using vector embeddings and enhances responses using an LLM-based RAG pipeline.
 
@@ -47,7 +46,7 @@ pip install -r requirements.txt
 4️⃣ Set Up API Keys (Google Gemini)
 Create a .env file and add:
 
-env
+ini
 Copy
 Edit
 GOOGLE_API_KEY=your_google_api_key_here
@@ -64,19 +63,21 @@ Seamlessly embed the chatbot into any ed-tech website, allowing students to get 
 
 ✅ Admin-Controlled Knowledge Upload
 Feature Overview:
-Enable admins to update the chatbot’s knowledge base directly from the frontend.
 
+Enables admins to update the chatbot’s knowledge base directly from the frontend.
 How It Works:
-Admin uploads a CSV file with new FAQs and answers.
-The system automatically processes, cleans, and vectorizes the data.
-The chatbot instantly incorporates the new knowledge, improving its responses.
+
+📥 Admin uploads a CSV file with new FAQs and answers.
+🛠️ The system automatically processes, cleans, and vectorizes the data.
+⚡ The chatbot instantly incorporates the new knowledge, improving its responses.
 Impact:
-No developer intervention needed for knowledge updates.
-Faster adaptability to new courses, policies, and student FAQs.
-Ensures chatbot always provides up-to-date responses.
+
+🚀 No developer intervention needed for knowledge updates.
+🔄 Faster adaptability to new courses, policies, and student FAQs.
+🎯 Ensures chatbot always provides up-to-date responses.
 ✅ Fine-tuned EdTech-specific LLM for improved query resolution.
 ✅ Multilingual Support for wider accessibility.
 📬 Feel Free to Reach Out!
-💼 LinkedIn: www.linkedin.com/in/himnish-a-5b6838196
+💼 LinkedIn: Himnish's LinkedIn
 📧 Email: himnisha11@gmail.com
 
