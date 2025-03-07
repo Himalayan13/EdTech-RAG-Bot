@@ -1,10 +1,11 @@
 EdTech-RAG-Bot: AI-Powered FAQ Chatbot for EdTech Platforms 🎓🤖
 🚀 EdTech-RAG-Bot is an AI-powered chatbot designed to handle high-volume student queries on ed-tech platforms. Built with Retrieval-Augmented Generation (RAG), this chatbot efficiently fetches accurate answers from a knowledge base, reducing the workload on support teams while enhancing user experience.
 
-![image](https://github.com/user-attachments/assets/39961eb3-e3d2-46bc-85ac-28bef6d2ddce)
+
 
 🌟 Why This Project?
 Ed-tech companies experience high traffic from students asking similar queries about courses, pricing, schedules, certifications, etc. Handling these manually:
+
 ❌ Increases response time ⏳
 ❌ Burdens support teams 😵
 ❌ Affects user experience 👎
@@ -19,7 +20,6 @@ Vector Database: FAISS
 Framework: LangChain
 Frontend: Streamlit
 Deployment: GitHub + Cloud
-
 ⚙️ How It Works
 1️⃣ Preprocess FAQs: Cleans, formats, and vectorizes the FAQ dataset.
 2️⃣ Build Vector Store: Uses FAISS to store and retrieve query-specific embeddings.
@@ -60,11 +60,12 @@ streamlit run main.py
 Now, interact with your chatbot in the browser! 🎉
 
 🧪 Future Enhancements
-✅ Website Integration: Seamlessly embed the chatbot into any ed-tech website, allowing students to get answers without leaving the platform.
+✅ Website Integration
+Seamlessly embed the chatbot into any ed-tech website, allowing students to get answers without leaving the platform.
 
-✅ Admin-Controlled Knowledge Upload:
-
+✅ Admin-Controlled Knowledge Upload
 Feature Overview: Enable admins to update the chatbot’s knowledge base directly from the frontend.
+
 How It Works:
 🔹 Admin uploads a CSV file with new FAQs and answers.
 🔹 The system automatically processes, cleans, and vectorizes the data.
@@ -73,11 +74,9 @@ Impact:
 🔹 No developer intervention needed for knowledge updates.
 🔹 Faster adaptability to new courses, policies, and student FAQs.
 🔹 Ensures chatbot always provides up-to-date responses.
-
 ✅ Fine-tuned EdTech-specific LLM for improved query resolution.
-
 ✅ Multilingual Support for wider accessibility.
-
 📬 Feel Free to Reach Out!
 💼 LinkedIn: www.linkedin.com/in/himnish-a-5b6838196
 📧 Email: himnisha11@gmail.com
+
